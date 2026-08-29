@@ -11,7 +11,7 @@ Liar/
 ├── Engine/          # Application engine layer
 │   ├── android/     # Flutter Android host
 │   ├── lib/         # Dart core library
-│   ├── platform_impl/  # Platform-specific Kotlin implementation
+│   ├── Xixinb/  # Platform-specific Kotlin implementation
 │   └── ...
 ├── Kernel/          # Native C++ kernel
 │   ├── lib/         # Libraries and tool implementations
