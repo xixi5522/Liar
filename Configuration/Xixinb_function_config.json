@@ -1,0 +1,1492 @@
+{
+  "FuncList": [
+    {
+      "Cmt": "pvz2.bbone.encode",
+      "Ars": "(dir)",
+      "Are": ".bbone",
+      "Func": [
+        "BBone",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.dz.pack",
+      "Ars": "(dir)",
+      "Are": ".dz",
+      "Func": [
+        "Dz",
+        "Pack"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.pak.encode",
+      "Ars": "(dir)",
+      "Are": ".pak",
+      "Func": [
+        "Pak",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.rsb.pack",
+      "Ars": "(dir)",
+      "Are": ".rsb",
+      "Func": [
+        "RSB",
+        "Pack"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()",
+        "Style": [
+          "twinstar",
+          "popstudio",
+          "taiji"
+        ],
+        "Mode": [
+          "resources",
+          "packets"
+        ],
+        "Fmt0Mode": [
+          "ARGB",
+          "ABGR",
+          "ARGB_Padding"
+        ]
+      }
+    },
+    {
+      "Cmt": "pvz2.rsgp.unpack",
+      "Ars": ".rsgp",
+      "Are": "(dir)",
+      "Func": [
+        "RSGP",
+        "Unpack"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.rsgp.pack",
+      "Ars": "(dir)",
+      "Are": ".rsgp",
+      "Func": [
+        "RSGP",
+        "Pack"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.resjson.craft",
+      "Ars": "(dir).dir",
+      "Are": ".json",
+      "Func": [
+        "ResJson",
+        "Craft"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()",
+        "AutoSlot": "Bool(true)",
+        "ConvertToNewVersion": "Bool(false)",
+        "DestructiveCraft": "Bool(false)"
+      }
+    },
+    {
+      "Cmt": "pvz2.bbone.xfl.decode",
+      "Ars": "(dir).xfl",
+      "Are": ".json",
+      "Func": [
+        "BBone",
+        "XFL",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.pam.xfl.decode",
+      "Ars": "(dir).xfl",
+      "Are": ".json",
+      "Func": [
+        "PopAnim",
+        "XFL",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.bbone.decode",
+      "Ars": ".bbone",
+      "Are": "(dir)",
+      "Func": [
+        "BBone",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()"
+      }
+    },
+    {
+      "Cmt": "decompress.popcapzlib",
+      "Ars": ".bin",
+      "Are": "",
+      "Func": [
+        "PopCapZlib",
+        "Decompress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Is64Bit": "Bool(false)"
+      }
+    },
+    {
+      "Cmt": "decompress.bzip2",
+      "Ars": ".bz2",
+      "Are": "",
+      "Func": [
+        "Bzip2",
+        "Decompress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.cdat.decode",
+      "Ars": ".cdat",
+      "Are": ".png",
+      "Func": [
+        "Texture",
+        "CDAT",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.cfw2.decode",
+      "Ars": ".cfw2",
+      "Are": ".json",
+      "Func": [
+        "CFW2",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "PreserveHeader": "Bool(false)"
+      }
+    },
+    {
+      "Cmt": "pvz2.datfont.decode",
+      "Ars": ".dat",
+      "Are": ".json",
+      "Func": [
+        "DatFont",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "decompress.deflate",
+      "Ars": ".deflate",
+      "Are": "",
+      "Func": [
+        "Deflate",
+        "Decompress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.hotupdate.encode",
+      "Ars": ".json",
+      "Are": ".json",
+      "Func": [
+        "HotUpdate",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Key": "Str()"
+      }
+    },
+    {
+      "Cmt": "pvz2.hotupdate.decode",
+      "Ars": ".json",
+      "Are": ".json",
+      "Func": [
+        "HotUpdate",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Key": "Str()"
+      }
+    },
+    {
+      "Cmt": "pvz2.caf.decode",
+      "Ars": ".caf",
+      "Are": ".wav",
+      "Func": [
+        "CAF",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.dz.unpack",
+      "Ars": ".dz",
+      "Are": "(dir)",
+      "Func": [
+        "Dz",
+        "Unpack"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()"
+      }
+    },
+    {
+      "Cmt": "util.rijndael.decrypt",
+      "Ars": ".enc",
+      "Are": "",
+      "Func": [
+        "Rijndael",
+        "Decrypt"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Mode": "Int(1)",
+        "BlockSize": "Int(16)",
+        "KeySize": "Int(32)",
+        "Key": "Str()",
+        "IV": "Str()",
+        "Padding": "Int(1)"
+      }
+    },
+    {
+      "Cmt": "decompress.gzip",
+      "Ars": ".gz",
+      "Are": "",
+      "Func": [
+        "Gzip",
+        "Decompress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.bbone.xfl.encode",
+      "Ars": ".json",
+      "Are": "(dir).xfl",
+      "Func": [
+        "BBone",
+        "XFL",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.cfw2.encode",
+      "Ars": ".json",
+      "Are": ".cfw2",
+      "Func": [
+        "CFW2",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "PreserveHeader": "Bool(false)"
+      }
+    },
+    {
+      "Cmt": "pvz2.datfont.encode",
+      "Ars": ".json",
+      "Are": ".dat",
+      "Func": [
+        "DatFont",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.pam.encode",
+      "Ars": ".json",
+      "Are": ".pam",
+      "Func": [
+        "PopAnim",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.pam.xfl.encode",
+      "Ars": ".json",
+      "Are": "(dir).xfl",
+      "Func": [
+        "PopAnim",
+        "XFL",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()",
+        "Resolution": "Int(768)"
+      }
+    },
+    {
+      "Cmt": "pvz2.particles.encode",
+      "Ars": ".json",
+      "Are": ".xml.compiled",
+      "Func": [
+        "Particles",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": [
+          "PC",
+          "Phone32",
+          "Phone64",
+          "TV",
+          "GameConsole",
+          "WP"
+        ],
+        "IsXml": "Bool(false)",
+        "UseZlib": "Bool(true)"
+      }
+    },
+    {
+      "Cmt": "pvz2.reanim.encode",
+      "Ars": ".json",
+      "Are": ".reanim.compiled",
+      "Func": [
+        "Reanim",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": "List(PC,Phone32,Phone64,TV,GameConsole,WP)",
+        "IsXml": "Bool(false)",
+        "UseZlib": "Bool(true)"
+      }
+    },
+    {
+      "Cmt": "pvz2.resjson.split",
+      "Ars": ".json",
+      "Are": "(dir).dir",
+      "Func": [
+        "ResJson",
+        "Split"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()",
+        "FixPathArray": "Bool(true)"
+      }
+    },
+    {
+      "Cmt": "pvz2.rton.encode",
+      "Ars": ".json",
+      "Are": ".rton",
+      "Func": [
+        "RTON",
+        "Encode"
+      ],
+      "Parm": {
+        "JSONFile": "Path()",
+        "RTONFile": "Path()",
+        "Encrypted": "Bool(false)",
+        "Key": "Str()"
+      }
+    },
+    {
+      "Cmt": "pvz2.trail.encode",
+      "Ars": ".json",
+      "Are": ".trail.compiled",
+      "Func": [
+        "Trail",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": [
+          "PC",
+          "TV",
+          "GameConsole",
+          "Phone32",
+          "Phone64",
+          "WP"
+        ],
+        "IsXml": "Bool(false)",
+        "UseZlib": "Bool(true)"
+      }
+    },
+    {
+      "Cmt": "decompress.lzma",
+      "Ars": ".lzma",
+      "Are": "",
+      "Func": [
+        "Lzma",
+        "Decompress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.pak.decode",
+      "Ars": ".pak",
+      "Are": "(dir)",
+      "Func": [
+        "Pak",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.pam.decode",
+      "Ars": ".pam",
+      "Are": ".json",
+      "Func": [
+        "PopAnim",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.cdat.encode",
+      "Ars": ".png",
+      "Are": ".cdat",
+      "Func": [
+        "Texture",
+        "CDAT",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.ptx.encode",
+      "Ars": ".png",
+      "Are": ".ptx",
+      "Func": [
+        "Texture",
+        "PTX",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": "List(ARGB8888, ABGR8888, RGBA4444, RGB565, RGBA5551, RGBA4444_Block, RGB565_Block, RGBA5551_Block, ARGB8888_A8, ABGR8888_A8, ARGB8888_A8_A1, ABGR8888_A8_A1, ARGB8888_A_Palette, ABGR8888_A_Palette, ARGB8888_A_Palette5, ABGR8888_A_Palette5, ARGB8888_BE, ARGB8888_Padding_BE, DXT1_RGB, DXT3_RGBA, DXT5_RGBA, DXT5_RGBA_MortonBlock, DXT5_RGBA_BE, ETC1_RGB, ETC1_RGB_A8, ETC1_RGB_A8_A1, ETC1_RGB_A_Palette, ETC1_RGB_A_Palette5, ETC1_RGB_A8_150, ETC1_RGB_A_Palette150, ETC1_RGB_A_Palette5_150, PVRTC_4BPP_RGBA, PVRTC_4BPP_RGBA_A8, PVRTC_4BPP_RGBA_A8_A1, PVRTC_4BPP_RGBA_A_Palette, PVRTC_4BPP_RGBA_A_Palette5, PVRTC_2BPP_RGBA, ASTC_4x4, ASTC_5x5, ASTC_6x6, ASTC_8x8)",
+        "WriteHeader": "Bool(true)",
+        "Fmt0Mode": [
+          "ARGB",
+          "ABGR",
+          "ARGB_Padding"
+        ]
+      }
+    },
+    {
+      "Cmt": "pvz2.ptxps3.encode",
+      "Ars": ".png",
+      "Are": ".ptx",
+      "Func": [
+        "Texture",
+        "PTX",
+        "PS3",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.ptxpsv.encode",
+      "Ars": ".png",
+      "Are": ".ptx",
+      "Func": [
+        "Texture",
+        "PTX",
+        "PSV",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.ptxxbox360.encode",
+      "Ars": ".png",
+      "Are": ".ptx",
+      "Func": [
+        "Texture",
+        "PTX",
+        "XBOX360",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.tex.encode",
+      "Ars": ".png",
+      "Are": ".tex",
+      "Func": [
+        "Texture",
+        "TEX",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": "List(ABGR8888, RGBA4444, RGBA5551, RGB565)"
+      }
+    },
+    {
+      "Cmt": "pvz2.textv.encode",
+      "Ars": ".png",
+      "Are": ".tex",
+      "Func": [
+        "Texture",
+        "TEX",
+        "TV",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": "List(L8, ARGB8888, ARGB4444, ARGB1555, RGB565, ABGR8888, RGBA4444, RGBA5551, XRGB8888, LA88, L8_RAW, ARGB8888_RAW, ARGB4444_RAW, ARGB1555_RAW, RGB565_RAW, ABGR8888_RAW, RGBA4444_RAW, RGBA5551_RAW, XRGB8888_RAW, LA88_RAW)"
+      }
+    },
+    {
+      "Cmt": "pvz2.txz.encode",
+      "Ars": ".png",
+      "Are": ".txz",
+      "Func": [
+        "Texture",
+        "TXZ",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": "List(ABGR8888, RGBA4444, RGBA5551, RGB565)"
+      }
+    },
+    {
+      "Cmt": "pvz2.xnb.encode",
+      "Ars": ".png",
+      "Are": ".xnb",
+      "Func": [
+        "Texture",
+        "XNB",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.ptx.decode",
+      "Ars": ".ptx",
+      "Are": ".png",
+      "Func": [
+        "Texture",
+        "PTX",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "UseHeader": "Bool(true)",
+        "Format": "List(ARGB8888, ABGR8888, RGBA4444, RGB565, RGBA5551, RGBA4444_Block, RGB565_Block, RGBA5551_Block, ARGB8888_A8, ABGR8888_A8, ARGB8888_A8_A1, ABGR8888_A8_A1, ARGB8888_A_Palette, ABGR8888_A_Palette, ARGB8888_A_Palette5, ABGR8888_A_Palette5, ARGB8888_BE, ARGB8888_Padding_BE, DXT1_RGB, DXT3_RGBA, DXT5_RGBA, DXT5_RGBA_MortonBlock, DXT5_RGBA_BE, ETC1_RGB, ETC1_RGB_A8, ETC1_RGB_A8_A1, ETC1_RGB_A_Palette, ETC1_RGB_A_Palette5, ETC1_RGB_A8_150, ETC1_RGB_A_Palette150, ETC1_RGB_A_Palette5_150, PVRTC_4BPP_RGBA, PVRTC_4BPP_RGBA_A8, PVRTC_4BPP_RGBA_A8_A1, PVRTC_4BPP_RGBA_A_Palette, PVRTC_4BPP_RGBA_A_Palette5, PVRTC_2BPP_RGBA, ASTC_4x4, ASTC_5x5, ASTC_6x6, ASTC_8x8)",
+        "Width": "Int(0)",
+        "Height": "Int(0)",
+        "Fmt0Mode": [
+          "ARGB",
+          "ABGR",
+          "ARGB_Padding"
+        ]
+      }
+    },
+    {
+      "Cmt": "pvz2.ptxps3.decode",
+      "Ars": ".ptx",
+      "Are": ".png",
+      "Func": [
+        "Texture",
+        "PTX",
+        "PTX PS3",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.ptxpsv.decode",
+      "Ars": ".ptx",
+      "Are": ".png",
+      "Func": [
+        "Texture",
+        "PTX",
+        "PSV",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.ptxxbox360.decode",
+      "Ars": ".ptx",
+      "Are": ".png",
+      "Func": [
+        "Texture",
+        "PTX",
+        "XBOX360",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.reanim.decode",
+      "Ars": ".reanim.compiled",
+      "Are": ".json",
+      "Func": [
+        "Reanim",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": "List(PC,Phone32,Phone64,TV,GameConsole,WP)",
+        "UseXml": "Bool(false)",
+        "UseZlib": "Bool(true)"
+      }
+    },
+    {
+      "Cmt": "pvz2.rsb.unpack",
+      "Ars": ".rsb",
+      "Are": "(dir)",
+      "Func": [
+        "RSB",
+        "Unpack"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()",
+        "Style": [
+          "twinstar",
+          "popstudio",
+          "taiji"
+        ],
+        "Mode": [
+          "resources",
+          "packets"
+        ],
+        "ChangeImage": "Bool(false)",
+        "DeleteAfterConvert": "Bool(false)",
+        "Fmt0Mode": [
+          "ARGB",
+          "ABGR",
+          "ARGB_Padding"
+        ]
+      }
+    },
+    {
+      "Cmt": "pvz2.rton.decode",
+      "Ars": ".rton",
+      "Are": ".json",
+      "Func": [
+        "RTON",
+        "Decode"
+      ],
+      "Parm": {
+        "RTONFile": "Path()",
+        "JSONFile": "Path()",
+        "Encrypted": "Bool(false)",
+        "Key": "Str()"
+      }
+    },
+    {
+      "Cmt": "pvz2.rton.decrypt",
+      "Ars": ".rton",
+      "Are": ".bin",
+      "Func": [
+        "RTON",
+        "Decrypt"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Key": "Str()"
+      }
+    },
+    {
+      "Cmt": "pvz2.rton.encrypt",
+      "Ars": ".rton",
+      "Are": ".bin",
+      "Func": [
+        "RTON",
+        "Encrypt"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Key": "Str()"
+      }
+    },
+    {
+      "Cmt": "pvz2.snr.decode",
+      "Ars": ".snr",
+      "Are": ".wav",
+      "Func": [
+        "SNR",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.sps.decode",
+      "Ars": ".sps",
+      "Are": ".wav",
+      "Func": [
+        "SPS",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.tex.decode",
+      "Ars": ".tex",
+      "Are": ".png",
+      "Func": [
+        "Texture",
+        "TEX",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.textv.decode",
+      "Ars": ".tex",
+      "Are": ".png",
+      "Func": [
+        "Texture",
+        "TEX",
+        "TV",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.trail.decode",
+      "Ars": ".trail.compiled",
+      "Are": ".json",
+      "Func": [
+        "Trail",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": [
+          "PC",
+          "TV",
+          "GameConsole",
+          "Phone32",
+          "Phone64",
+          "WP"
+        ],
+        "UseXml": "Bool(false)",
+        "UseZlib": "Bool(true)"
+      }
+    },
+    {
+      "Cmt": "pvz2.txz.decode",
+      "Ars": ".txz",
+      "Are": ".png",
+      "Func": [
+        "Texture",
+        "TXZ",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.snr.encode",
+      "Ars": ".wav",
+      "Are": ".snr",
+      "Func": [
+        "SNR",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.sps.encode",
+      "Ars": ".wav",
+      "Are": ".sps",
+      "Func": [
+        "SPS",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.particles.decode",
+      "Ars": ".xml.compiled",
+      "Are": ".json",
+      "Func": [
+        "Particles",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Format": [
+          "PC",
+          "Phone32",
+          "Phone64",
+          "TV",
+          "GameConsole",
+          "WP"
+        ],
+        "UseXml": "Bool(false)",
+        "UseZlib": "Bool(true)"
+      }
+    },
+    {
+      "Cmt": "pvz2.xnb.decode",
+      "Ars": ".xnb",
+      "Are": ".png",
+      "Func": [
+        "Texture",
+        "XNB",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "decompress.zlib",
+      "Ars": ".z",
+      "Are": "",
+      "Func": [
+        "Zlib",
+        "Decompress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "compress.bzip2",
+      "Ars": "",
+      "Are": ".bz2",
+      "Func": [
+        "Bzip2",
+        "Compress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Level": "Str(9)"
+      }
+    },
+    {
+      "Cmt": "compress.deflate",
+      "Ars": "",
+      "Are": ".deflate",
+      "Func": [
+        "Deflate",
+        "Compress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Level": "Str(9)"
+      }
+    },
+    {
+      "Cmt": "compress.gzip",
+      "Ars": "",
+      "Are": ".gz",
+      "Func": [
+        "Gzip",
+        "Compress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Level": "Str(9)"
+      }
+    },
+    {
+      "Cmt": "compress.lzma",
+      "Ars": "",
+      "Are": ".lzma",
+      "Func": [
+        "Lzma",
+        "Compress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Level": "Str(9)"
+      }
+    },
+    {
+      "Cmt": "compress.popcapzlib",
+      "Ars": "",
+      "Are": ".bin",
+      "Func": [
+        "PopCapZlib",
+        "Compress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Is64Bit": "Bool(false)",
+        "Level": "Str(9)"
+      }
+    },
+    {
+      "Cmt": "compress.zlib",
+      "Ars": "",
+      "Are": ".z",
+      "Func": [
+        "Zlib",
+        "Compress"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Level": "Str(9)"
+      }
+    },
+    {
+      "Cmt": "util.md5.compute",
+      "Ars": "",
+      "Are": ".md5",
+      "Func": [
+        "Util",
+        "MD5"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "util.rijndael.encrypt",
+      "Ars": "",
+      "Are": ".enc",
+      "Func": [
+        "Rijndael",
+        "Encrypt"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "Mode": "Int(1)",
+        "BlockSize": "Int(16)",
+        "KeySize": "Int(32)",
+        "Key": "Str()",
+        "IV": "Str()",
+        "Padding": "Int(1)"
+      }
+    },
+    {
+      "Cmt": "arcv.unpack",
+      "Ars": ".arcv",
+      "Are": "(dir)",
+      "Func": [
+        "Arcv",
+        "Unpack"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()"
+      }
+    },
+    {
+      "Cmt": "arcv.pack",
+      "Ars": "(dir)",
+      "Are": ".arcv",
+      "Func": [
+        "Arcv",
+        "Pack"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.atlas.cut",
+      "Ars": ".png",
+      "Are": "(dir)",
+      "Func": [
+        "Atlas",
+        "Cut"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()",
+        "InfoFile": "Path()",
+        "ItemName": "Str()",
+        "Format": [
+          "newxml",
+          "oldxml",
+          "ancientxml",
+          "plist",
+          "imagedat",
+          "tvatlasxml",
+          "resrton"
+        ]
+      }
+    },
+    {
+      "Cmt": "pvz2.atlas.splice",
+      "Ars": "(dir)",
+      "Are": ".png",
+      "Func": [
+        "Atlas",
+        "Splice"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()",
+        "InfoFile": "Path()",
+        "ItemName": "Str()",
+        "Format": [
+          "newxml",
+          "oldxml",
+          "ancientxml",
+          "plist",
+          "imagedat",
+          "tvatlasxml",
+          "resrton"
+        ],
+        "MaxWidth": "Int(2048)",
+        "MaxHeight": "Int(2048)"
+      }
+    },
+    {
+      "Cmt": "audio.fsb.decode",
+      "Ars": ".fsb",
+      "Are": "(dir)",
+      "Func": [
+        "FSB",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "BundleDirectory": "Path()"
+      }
+    },
+    {
+      "Cmt": "audio.fsb.encode",
+      "Ars": "(dir)",
+      "Are": ".fsb",
+      "Func": [
+        "FSB",
+        "Encode"
+      ],
+      "Parm": {
+        "RawDirectory": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "network.packets.decode",
+      "Ars": ".bin",
+      "Are": ".toml",
+      "Func": [
+        "Network",
+        "Packets",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "ReqId": "Str()",
+        "Version": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "Cmt": "network.packets.encode",
+      "Ars": ".toml",
+      "Are": ".bin",
+      "Func": [
+        "Network",
+        "Packets",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "ReqId": "Str()",
+        "Version": [
+          "0",
+          "1"
+        ]
+      }
+    },
+    {
+      "Cmt": "pvz2.newton.decode",
+      "Ars": ".newton",
+      "Are": ".json",
+      "Func": [
+        "Newton",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.newton.encode",
+      "Ars": ".json",
+      "Are": ".newton",
+      "Func": [
+        "Newton",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "popcap.particleeffect.decode",
+      "Ars": ".ppf",
+      "Are": ".json",
+      "Func": [
+        "ParticleEffect",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "popcap.particleeffect.encode",
+      "Ars": ".json",
+      "Are": ".ppf",
+      "Func": [
+        "ParticleEffect",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.rendereffect.decode",
+      "Ars": ".popfx",
+      "Are": ".popfx.json",
+      "Func": [
+        "RenderEffect",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "VersionNumber": "Int(1)",
+        "VersionVariant": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "Cmt": "pvz2.rendereffect.encode",
+      "Ars": ".popfx.json",
+      "Are": ".popfx",
+      "Func": [
+        "RenderEffect",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "VersionNumber": "Int(1)",
+        "VersionVariant": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
+    },
+    {
+      "Cmt": "pvz2.text_table.convert",
+      "Ars": ".txt",
+      "Are": ".json",
+      "Func": [
+        "TextTable",
+        "Convert"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()",
+        "DestinationVersion": [
+          "text",
+          "json_map",
+          "json_list"
+        ]
+      }
+    },
+    {
+      "Cmt": "audio.bnk.unpack",
+      "Ars": ".bnk",
+      "Are": "(dir)",
+      "Func": [
+        "BNK",
+        "Unpack"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()",
+        "NoExtract": "Bool(false)"
+      }
+    },
+    {
+      "Cmt": "audio.bnk.pack",
+      "Ars": "(dir)",
+      "Are": ".bnk",
+      "Func": [
+        "BNK",
+        "Pack"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.wwise.wem.decode",
+      "Ars": ".wem",
+      "Are": ".ogg",
+      "Func": [
+        "Wwise",
+        "WEM",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.xnb_audio.decode",
+      "Ars": ".xnb",
+      "Are": ".wav",
+      "Func": [
+        "XnbAudio",
+        "Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.xnb_audio.encode",
+      "Ars": ".wav",
+      "Are": ".xnb",
+      "Func": [
+        "XnbAudio",
+        "Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.xpr.unpack",
+      "Ars": ".xpr",
+      "Are": "(dir)",
+      "Func": [
+        "XPR",
+        "Unpack"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.xpr.pack",
+      "Ars": "(dir)",
+      "Are": ".xpr",
+      "Func": [
+        "XPR",
+        "Pack"
+      ],
+      "Parm": {
+        "InputFolder": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "pvz2.rsb.unpack_lenient",
+      "Ars": ".rsb",
+      "Are": "(dir)",
+      "Func": [
+        "RSB",
+        "UnpackLenient"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFolder": "Path()",
+        "Style": [
+          "twinstar",
+          "popstudio",
+          "taiji"
+        ],
+        "ChangeImage": "Bool(false)",
+        "DeleteAfterConvert": "Bool(false)",
+        "Fmt0Mode": [
+          "ARGB",
+          "ABGR",
+          "ARGB_Padding"
+        ]
+      }
+    },
+    {
+      "Cmt": "util.base64.encode",
+      "Ars": "",
+      "Are": ".b64",
+      "Func": [
+        "Util",
+        "Base64Encode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    },
+    {
+      "Cmt": "util.base64.decode",
+      "Ars": ".b64",
+      "Are": "",
+      "Func": [
+        "Util",
+        "Base64Decode"
+      ],
+      "Parm": {
+        "InputFile": "Path()",
+        "OutputFile": "Path()"
+      }
+    }
+  ]
+}
